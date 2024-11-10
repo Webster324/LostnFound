@@ -1,0 +1,49 @@
+[versions]
+agp = "8.3.1"
+compiler = "4.12.0"
+desugar_jdk_libs = "2.0.4"
+firebaseStorageVersion = "20.0.0"
+firebaseUiFirestore = "7.2.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+googleServices = "4.4.1"
+firebaseFirestore = "24.11.0"
+firebaseAuth = "22.3.1"
+multidex = "2.0.1"
+okhttp = "4.9.2"
+playServicesTasks = "18.1.0"
+firebaseStorage = "20.3.0"
+zxingAndroidEmbedded = "4.3.0"
+firebaseMessaging = "23.4.1"
+
+[libraries]
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+firebase-storage-v2000 = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorageVersion" }
+firebase-ui-firestore = { module = "com.firebaseui:firebase-ui-firestore", version.ref = "firebaseUiFirestore" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "compiler" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+

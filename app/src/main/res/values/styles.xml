@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="transparentButton" parent="Button">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="coloredButton" parent="Button">
+        <item name="android:background">@drawable/round_corner_card_12</item>
+    </style>
+
+    <style name="blueButton" parent="coloredButton">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="greyButton" parent="coloredButton">
+        <item name="android:backgroundTint">@color/light_grey</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="redButton" parent="coloredButton">
+        <item name="android:backgroundTint">@color/light_pink</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+
+    <style name="textField">
+
+    </style>
+
+    <string name="instruction1">1. Print QR Code By Printer</string>
+    <string name="instruction2">2. Place QR Code On Your Item</string>
+
+</resources>

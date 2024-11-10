@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_posts"
+        android:icon="@drawable/ic_feed_24"
+        android:title="Posts" />
+    <item
+        android:id="@+id/menu_create_post"
+        android:icon="@drawable/ic_create_post_24"
+        android:title="Create Post" />
+<!--    <item-->
+<!--        android:id="@+id/menu_chat_test"-->
+<!--        android:icon="@drawable/message_icon"-->
+<!--        android:title="Chat" />   &lt;!&ndash;comment hhhhhhhhhhhhhhhhhhh&ndash;&gt;-->
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_account_circle_24"
+        android:title="Profile" />
+</menu>
